@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Home(){return <><header className="nav"><b>Holiday Estate Spain</b><Link href="/es">Web clientes</Link><Link href="/admin/login">Panel admin</Link></header><main className="wrap"><section className="card"><p className="muted">REAL ESTATE · SPAIN</p><h1>Encuentra tu próxima vivienda</h1><p>Propiedades seleccionadas en la costa española. Web multilingüe en español e inglés.</p><Link className="btn" href="/es">Ver propiedades</Link></section></main></>}
